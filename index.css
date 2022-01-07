@@ -20,12 +20,11 @@ header {
   overflow: hidden;
   top: 0px;
   display: grid;
-  grid-template-columns: 60vw 40vw;
+  grid-template-columns: auto auto;
   grid-template-rows: 60%;
   background: #2b63ad;
   border-bottom: 0px solid rgb(63, 31, 100);
   padding: 20px 20px 0 20px;
-  /* max-width: fit-content; */
   height: 605px;
 }
 
@@ -43,7 +42,7 @@ header {
 .title-text {
   font-size: 110px;
   color: antiquewhite;
-  left: 230px;
+  left: 220px;
   width: 450px;
   top: 70px;
   text-align: right;
