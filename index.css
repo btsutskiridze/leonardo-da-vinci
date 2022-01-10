@@ -234,19 +234,21 @@ figcaption {
   border-radius: 10px;
   width: 450px;
 }
-.inventions-imgs:hover {
+/* .inventions-imgs:hover {
   border-radius: 0px;
-}
+} */
 
 #cannon {
   float: left;
   width: 300px;
+  margin: 10px;
 }
+/* input[id="cannon"]:hover {
+  border-radius: 0px;
+} */
 #cannon-text {
-  display: flex;
-  width: 195.5px;
+  /* display: flex; */
   text-align: left;
-  left: 10px;
 }
 
 .invention-header {
