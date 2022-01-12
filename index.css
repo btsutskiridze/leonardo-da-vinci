@@ -30,7 +30,7 @@ header {
 }
 @media screen and (max-width: 900px) {
   header {
-    max-width: 1240px;
+    width: 1240px;
   }
 }
 
@@ -336,7 +336,20 @@ figcaption {
 /* end of footer */
 
 /* media quore */
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 900px) {
+  header {
+    width: 1241px;
+  }
+
+  .painting-images {
+    width: 400px;
+  }
+
+  #painting7 {
+    width: 1100px;
+  }
+}
+@media screen and (max-width: 600px) {
   header {
     min-width: 340px;
     max-width: 100%;
