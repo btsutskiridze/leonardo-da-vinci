@@ -129,6 +129,8 @@ main {
 }
 #about-img {
   width: 350px;
+  height: 94%;
+  object-fit: cover;
   border-radius: 0 20px 20px 0;
 }
 .about-header {
@@ -336,9 +338,10 @@ figcaption {
 /* end of footer */
 
 /* media quore */
+
 @media screen and (min-width: 900px) {
   header {
-    width: 1241px;
+    width: 1240px;
   }
 
   .painting-images {
@@ -347,6 +350,23 @@ figcaption {
 
   #painting7 {
     width: 1100px;
+  }
+}
+@media screen and (min-width: 995px) {
+  header {
+    margin: 0 5px 20px 5px;
+    border-radius: 0 0 20px 20px;
+    overflow: hidden;
+    top: 0px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 60%;
+    background: #2b63ad;
+    border-bottom: 0px solid rgb(63, 31, 100);
+    padding: 20px 20px 0 20px;
+    height: 605px;
+    width: 1300px;
+    float: none;
   }
 }
 @media screen and (max-width: 600px) {
