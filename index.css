@@ -339,15 +339,18 @@ figcaption {
 
 /* media quore */
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 800px) {
   header {
     width: 1240px;
   }
 
   .painting-images {
+    display: inline-block;
     width: 400px;
   }
-
+  .paintin2-caption {
+    font-size: 25px;
+  }
   #painting7 {
     width: 1100px;
   }
