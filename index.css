@@ -26,12 +26,14 @@ header {
   border-bottom: 0px solid rgb(63, 31, 100);
   padding: 20px 20px 0 20px;
   height: 605px;
+  /* width: 100vw; */
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 900px) {
   header {
     width: 1240px;
   }
 }
+
 .aside {
   align-self: center;
   justify-self: center;
@@ -332,3 +334,283 @@ figcaption {
 }
 /* end of go to top button styling */
 /* end of footer */
+
+/* media quore */
+@media screen and (max-width: 500px) {
+  header {
+    min-width: 340px;
+    max-width: 100%;
+    display: block;
+    height: unset;
+    margin: 0;
+    padding: 0;
+  }
+  .title-img {
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 5px rgb(94, 122, 197);
+    max-width: 100%;
+    width: 97%;
+    height: 50%;
+    object-fit: cover;
+    margin: 6px;
+    padding: 0;
+  }
+
+  .title-text {
+    font-size: 56px;
+    text-align: center;
+    margin: 10px 0 0 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .under-title-text {
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .navigation {
+    display: block;
+    top: 0;
+    left: 0px;
+  }
+  .nav {
+    color: white; /*rgb(213, 161, 255) */
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 0 20px;
+    width: 65%;
+    letter-spacing: 6px;
+    height: 45px;
+    background-color: rgb(59, 168, 168);
+    border-radius: 20px;
+  }
+  .nav:hover {
+    padding: 0 0px;
+    width: 65%;
+    letter-spacing: 4px;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+  }
+
+  /* ---------------------------------------- */
+  /* ---------------------------------------- */
+
+  main {
+    float: none;
+  }
+
+  .about-text {
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 0;
+    line-height: normal;
+    /* height: 100vh; */
+  }
+  #about-img {
+    max-width: 100%;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 0px 5px rgb(94, 122, 197);
+  }
+  .about-header {
+    text-align: center;
+    color: #eca386;
+    padding: 0;
+    margin: 30px 30px 10px 30px;
+  }
+  .about-prg::first-letter {
+    padding-left: 1.8px;
+  }
+  .about-prg {
+    line-height: 35px;
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 2px 0px 2px;
+    padding: 2px;
+  }
+  .inside-about {
+    text-align: center;
+    display: block;
+    margin: 10px 0 -10px 0;
+  }
+  .inside-about > a {
+    color: #aca6ff;
+    font-size: 23px;
+    text-decoration: none;
+    text-transform: inherit;
+  }
+  .inside-about > a:hover {
+    color: #ffd4a2;
+    font-size: 23px;
+    border: 3px solid #ffd4a2;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  /* --------------------------------------------- */
+  /* --------------------------------------------- */
+  .painting-text {
+    font-size: 20px;
+    color: whitesmoke;
+    background: #b8866a;
+    margin: 5px 0;
+    border-radius: 20px;
+    padding-bottom: 1px;
+  }
+  #paintings-text {
+    font-family: "Roboto", sans-serif;
+    padding: 30px 30px 10px 30px;
+    font-weight: 300;
+    font-size: 30px;
+  }
+  .painting-imgs {
+    align-items: flex-start;
+  }
+  .paintings {
+    padding: 0px;
+    margin: 10px;
+    background: #ffc4ae;
+    display: block;
+    border-radius: 20px;
+    border: 5px solid #ca9581;
+  }
+  .paintings:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 4px 2px #805e43;
+  }
+
+  .painting-images {
+    align-content: none;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0px 0px 3px 0px #6b483b;
+    width: 100%;
+  }
+  #painting7 {
+    width: 100%;
+  }
+
+  figcaption {
+    font-size: 20px;
+    color: #8d6529;
+    font-weight: 900;
+    font-family: "Arima Madurai", cursive;
+    overflow-wrap: break-word;
+  }
+  .paintin2-caption {
+    font-size: 20px;
+  }
+  /* --------------------------------------------- */
+  /* --------------------------------------------- */
+  .inventions-section {
+    background: #6245a5; /*#835dda;*/
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 20px;
+  }
+  .inventions {
+    display: block;
+  }
+  .inventions-div {
+    font-size: 20px;
+    background: #876dc2;
+    padding: 0px 10px 10px 10px;
+    border-radius: 20px;
+    color: #161a53;
+    margin: 10px;
+  }
+  .inventions-div:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 1px 2px #340077, 0px 0px 4px 2px #5206b6;
+  }
+  .inventions-imgs {
+    margin: 0px;
+    border-radius: 10px;
+    width: 100%;
+  }
+  /* .inventions-imgs:hover {
+    border-radius: 0px;
+  } */
+
+  #cannon {
+    float: none;
+    width: 100%;
+    margin: 0px;
+  }
+  /* input[id="cannon"]:hover {
+    border-radius: 0px;
+  } */
+  /* #cannon-text {
+    display: flex;
+    text-align: left;
+  } */
+
+  .invention-header {
+    font-size: 30px;
+    color: #aed8ff;
+    padding-bottom: 30px;
+  }
+
+  .inventions-headers {
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+    padding: 10px;
+    margin: 0;
+    color: #a2ff6c;
+    font-size: 25px;
+  }
+
+  .invention-paragraps {
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding: 10px 0 0 0;
+    margin: 0;
+  }
+  /* --------------------------------------------------- */
+  /* --------------------------------------------------- */
+
+  .footer-quote {
+    font-family: "Ubuntu", sans-serif;
+    font-style: italic;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background: #d19a6d;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 20px;
+    border: none;
+    color: #ffffff;
+  }
+  .quote {
+    padding-top: 20px;
+  }
+  .author {
+    color: #55391f;
+    padding-bottom: 10px;
+    font-weight: 700;
+  }
+}
