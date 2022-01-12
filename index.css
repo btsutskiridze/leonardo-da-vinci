@@ -30,7 +30,7 @@ header {
 }
 @media screen and (max-width: 900px) {
   header {
-    width: 1240px;
+    max-width: 1240px;
   }
 }
 
