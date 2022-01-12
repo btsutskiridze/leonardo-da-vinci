@@ -426,7 +426,7 @@ figcaption {
   #about-img {
     max-width: 100%;
     width: 90%;
-    height: 90%;
+    height: 50%;
     object-fit: cover;
     object-position: top;
     border-radius: 20px;
