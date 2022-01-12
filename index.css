@@ -459,6 +459,7 @@ figcaption {
   #about-img {
     max-width: 100%;
     width: 90%;
+    height: unset;
     object-fit: contain;
     object-position: center;
     border-radius: 20px;
